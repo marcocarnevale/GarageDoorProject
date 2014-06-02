@@ -8,5 +8,5 @@ package com.example.garagedoorproject;
  */
 public final class Constants {
 	
-	public final static String RPI_IP = "<IP_AND_URL_To_The_GarageDoor_Service>";	
+	public final static String RPI_IP = "http://192.168.2.25/garage.php";	
 }
