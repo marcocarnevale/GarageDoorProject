@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Garage</string>
+    <string name="app_name_long">Garage Door Opener</string>
+    <string name="garage_button">Open / Close</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
