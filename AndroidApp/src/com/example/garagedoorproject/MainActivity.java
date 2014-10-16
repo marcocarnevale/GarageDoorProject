@@ -88,16 +88,16 @@ public class MainActivity extends Activity {
 			httppost.setEntity(new UrlEncodedFormEntity(nameValuePairs));
 			// Execute HTTP Post Request
 			HttpResponse response = httpclient.execute(httppost);			
-			Toast.makeText(this, "Success", Toast.LENGTH_LONG).show();
+			Toast.makeText(this, "Success: "+ response, Toast.LENGTH_LONG).show();
 		} catch (ClientProtocolException e) {
 			Log.e("GarageDoorOpener", "ClientProtocolException while calling RaspberryPi: "+ e);
-			Toast.makeText(this, "ClientProtocolException while calling RaspberryPi", Toast.LENGTH_LONG).show();
+			Toast.makeText(this, "ClientProtocolException while calling RaspberryPi"+ e, Toast.LENGTH_LONG).show();
 		} catch (IOException e) {
 			Log.e("GarageDoorOpener", "IOException while calling RaspberryPi: "+ e);
-			Toast.makeText(this, "IOException while calling RaspberryPi", Toast.LENGTH_LONG).show();
+			Toast.makeText(this, "IOException while calling RaspberryPi"+ e, Toast.LENGTH_LONG).show();
 		} catch (Exception e) {
 			Log.e("GarageDoorOpener", "Exception while calling RaspberryPi: "+ e);
-			Toast.makeText(this, "Exception while calling RaspberryPi", Toast.LENGTH_LONG).show();
+			Toast.makeText(this, "Exception while calling RaspberryPi"+ e, Toast.LENGTH_LONG).show();
 		}
 	}
 
