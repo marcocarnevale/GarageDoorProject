@@ -7,5 +7,5 @@ package com.example.garagedoorproject;
  */
 public final class Constants {
 	
-	public final static String RPI_IP = "http://marcoc.duckdns.org/garage.php";	
+	public final static String PI_URL = "http://marcoc.duckdns.org/garage.php";
 }
